@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pppp.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Poojithasaipriya<span>Nagineni</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>It's <span>Poojithasaipriya Nagineni</span></h1>
+            <h3 class="text-animation">
+                I'm a <span>Web Developer</span>
+            </h3>
+            <p>Hi! I'm Poojithasaipriya Nagineni, currently pursuing my <span>BTech</span> at SRM University. As a web developer, I adeptly craft responsive websites and applications using languages like HTML, CSS, and JavaScript, alongside frameworks like React.js and AngularJS, ensuring seamless functionality and user experience while continuously embracing new technologies for innovation and efficiency.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_sreenidhi_06?igsh=am5lcTQ4cnlqajdl&utm_source=qr" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/login" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://in.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation"><span></span></h3>
+            <p>Greetings, I'm Poojitha, a second-year undergraduate student majoring in Computer Science and Engineering at <span>SRM University</span>. My tech stack encompasses a range of languages, including C++, HTML, CSS, JS, and Python, with a current focus on learning Solidity. As a student aspiring to become a web designer, the journey is marked by relentless learning, mastering design principles, and honing technical skills in HTML, CSS, and graphic software. Countless hours are dedicated to refining creativity, staying updated with design trends, and translating ideas into visually captivating and user-friendly interfaces, all while balancing academic commitments and personal growth.
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="file:///C:/Users/DELL/Desktop/sri.jpeg" alt="Sreenidhi Vadlamudi">
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Education Details</h2>
+        <div class="service-container">
+            <div class="services-box">
+                <i class="bx bx-school"></i>
+                <h3>Schooling</h3>
+                <p>I have completed my schooling from <span>Little Flower E.M. School</span></p>
+                <a href="https://littleflowerguntur.com/a/about/" target="_blank" class="btn">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-graduation-cap"></i>
+                <h3>Graduation</h3>
+                <p>I am pursuing my <span>B-Tech in SRM-AP</span> </p>
+                <a href="https://srmap.edu.in/" class="btn" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <hr id="hrtag">
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <p class="copyright">&copy; 2024 | All Right Reserved</p>
+    </footer>
+    <script src="rrrr.js"></script>
+</body>
+</html>
